@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+	<title>Document</title>
+
+	<link rel='stylesheet' href='css/main.css'>
+	<script src='libs/rain.js' defer></script>
+	<script src='libs/gsap/gsap.min.js' defer></script>
+	<script src='libs/gsap/ScrollTrigger.min.js' defer></script>
+	<script src='libs/gsap/ScrollSmoother.min.js' defer></script>
+	<script src='js/app.js' defer></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="content">
+
+	<section class="layers">
+		<div class="layers__container">
+			<div class="layers__item layer-1" style="background: url(img/layer-1.jpg)"></div>
+			<div class="layers__item layer-2" style="background: url(img/layer-2.png)"></div>
+			<div class="layers__item layer-3">
+				<div data-speed="0.88" data-lag="0.3" class="hero-content">
+					<h1>ЯНДЕКС <span>АЛИСА</span></h1>
+					<div class="hero-content__p">настоящие звуки природы.</div>
+					<div class="hero-content__p">теперь.</div>
+				</div>
+			</div>
+			<div class="layers__item layer-4">
+				<canvas class="rain"></canvas>
+			</div>
+			<div class="layers__item layer-5" style="background: url(img/layer-5.png)"></div>
+			<div class="layers__item layer-6" style="background: url(img/layer-6.png)"></div>
+		</div>
+
+		<div class="slider-position">
+			<div class='slider'>
+  				<div class='slider-animated'></div>
+			</div>
+		</div>
+	</section>
+
+	<div class="information">
+		<div class="container">
+			<main class="information__container">
+				<div data-speed="0.90" class="container__left">
+					<img class="gallery__item" src="img/chat.png" alt="">
+				</div>
+				<div data-speed="0.97" class="container__right">
+
+					<div class="text-block gallery__item">
+						<h2 class="text-block__h">Наслаждайтесь прямой трансляцией звуков из леса и среди морей!</h2>
+						<p class="text-block__p">Просто скажите: "Алиса включи звуки природы" своей яндекс колонке или в яндекс браузере.</p>
+					</div>
+
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<!--<div style="height: 100vh"></div>-->
+
+		</div>
+	</div>
+</body>
+</html>
