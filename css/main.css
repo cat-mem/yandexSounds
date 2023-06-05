@@ -157,31 +157,30 @@ body {
             border-radius: 10px;
             height:10px;
             width: 100%;
-            background: rgba(255,255,255,0.8);
+            background: rgba(194, 255, 179,0.6);
             animation: sliderAnimation 1.2s ease-out infinite;
         }
     }
 }
 
 @keyframes sliderAnimation {
-  0% {
-    height:0px;
-    opacity:0;
-  }
-  25% {
-    height:100%;
-    opacity:1;
-  }
-
-  50% {
-    height:100%;
-  }
-  70% {
-    opacity:1;
-   }
-  100% {
-    bottom:0;
-    height:0px;
-    opacity:0;
-   }
+    0% {
+        height:0px;
+        opacity:0;
+    }
+    25% {
+        height:100%;
+        opacity:1;
+    }
+    50% {
+        height:100%;
+    }
+    70% {
+        opacity:1;
+    }
+    100% {
+        bottom:0;
+        height:0px;
+        opacity:0;
+    }
 }
