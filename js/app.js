@@ -16,14 +16,14 @@ gsap.fromTo('.hero-content', { opacity: 1 }, {
     }
 })
 
-gsap.fromTo('.container__left .gallery__item', { x: -100, y: 50, opacity: 0 }, {
+gsap.fromTo('.container__left .gallery__item', { x: -100, y: 100, opacity: 0 }, {
     opacity: 2, x: 0, y: 0, scrollTrigger: {
         trigger: '.gallery__item',
         scrub: true
     }
 })
 
-gsap.fromTo('.container__right .gallery__item', { x: 100, y: 50, opacity: 0 }, {
+gsap.fromTo('.container__right .gallery__item', { x: 100, y: 100, opacity: 0 }, {
     opacity: 2, x: 0,y: 0, scrollTrigger: {
         trigger: '.gallery__item',
         scrub: true
